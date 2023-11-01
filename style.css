@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
     
 }
 
-body{
+body {
     background-color: #101323;
     display: flex;
     justify-content: center;
@@ -22,11 +22,12 @@ body{
     a {
         text-decoration: none;
     }
-    .breakpoint{
+    .breakpoint {
         display: flex;
         flex-direction: column;
         border: 2px solid rgb(0, 255, 0);
         width: 1700px;
+        height: fit-content;
     }
     /*HERO SECTION-NAVBAR START*/
     .heroSectionNavbar {
@@ -70,16 +71,16 @@ body{
         background-color: #22D3EE;
         border-color: #22D3EE;
     }
-    .heroSectionNavbarText > a{
+    .heroSectionNavbarText > a {
         color: #CFFAFE;
         text-transform: capitalize;
     }
-    .heroSectionNavbarText > a:hover{
+    .heroSectionNavbarText > a:hover {
         color: #A5F3FC;
         text-transform: capitalize;
         cursor: pointer;
     }
-    .heroSectionNavbarText > a:active{
+    .heroSectionNavbarText > a:active {
         color: #67E8F9;
         text-transform: capitalize;
     }
@@ -169,12 +170,27 @@ body{
     .secondSection {
         display: flex;
         flex-direction: column;
-        margin-top: 100px;
+        padding-top: 50px;
         border: 5px solid rgb(246, 246, 246);
         width: 100%;
-        height: 1000px;
+        height: fit-content;
         background-color: #101828;
         border-radius: 0 0 100px 100px;
+    }
+    .secondSectionContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 50px;
+        border: 2px solid rebeccapurple;
+    }
+    .secondSectionTextAreas {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid red;
+        width: fit-content;
     }
     .secondSectionMainText {
         border: 2px solid springgreen;
@@ -198,5 +214,368 @@ body{
         font-weight: 300;
         color: #67E8F9;
     }
+    /*SECOND SECTION-FIRST-LVL START*/
+    .powerSidesContainer {
+        border: 3px solid yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 600px;
+    }
+    .powerSidesFirstLvl {
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid orange;
+        width: 100%; 
+    }
+    .qualifiedTeam {
+        display: flex;
+        margin-left: 125px;
+        width: fit-content;
+        height: 150px;
+        border: 2px solid springgreen;
+    }
+    .qualifiedTeamTextAreas {
+        border: 2px solid rgba(255, 77, 0, 0.902);
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 150px;
+    }
+    .qualifiedTeamMainText {
+        border: 2px solid yellow;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 28px;
+        text-transform: capitalize;
+        color: #22D3EE;
+    }
+    .qualifiedTeamSecondText {
+        border: 2px solid rgb(200, 0, 255);
+        display: flex;
+        margin: 10px auto 5px auto;
+        width: 450px;
+        height: 85px;
+        text-align: center;
+        font-size: 22px;
+        color: #A5F3FC;
+    }
+    .qualifiedTeamImgContainer {
+        border: 2px solid rgb(142, 139, 232);
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .qualifiedTeamImg {
+        background-image: url(Assets/qualifiedIcon.svg);
+        background-repeat: no-repeat;
+        width: 125px;
+        aspect-ratio: 1;
+    }
+    .highEducation {
+        display: flex;
+        margin-right: 125px;
+        width: fit-content;
+        height: 150px;
+        border: 2px solid springgreen;
+    }
+    .highEducationTextAreas {
+        border: 2px solid rgba(255, 77, 0, 0.902);
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 150px;
+    }
+    .highEducationMainText {
+        border: 2px solid yellow;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 28px;
+        text-transform: capitalize;
+        color: #22D3EE;
+    }
+    .highEducationSecondText {
+        border: 2px solid rgb(200, 0, 255);
+        display: flex;
+        margin: 10px auto 5px auto;
+        width: 450px;
+        height: 85px;
+        text-align: center;
+        font-size: 22px;
+        color: #A5F3FC;
+    }
+    .highEducationImgContainer {
+        border: 2px solid rgb(142, 139, 232);
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .highEducationImg {
+        background-image: url(Assets/graduateIcon.svg);
+        background-repeat: no-repeat;
+        width: 125px;
+        aspect-ratio: 1;
+    }
+    /*SECOND SECTION-FIRST-LVL END*/
+    /*SECOND SECTION-SECOND-LVL START*/
+    .powerSidesSecondLvl {
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid orange;
+        width: 100%; 
+    }
+    .friendlyCompanies {
+        display: flex;
+        width: fit-content;
+        height: 150px;
+        border: 2px solid springgreen;
+    }
+    .friendlyCompaniesTextAreas {
+        border: 2px solid rgba(255, 77, 0, 0.902);
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 150px;
+    }
+    .friendlyCompaniesMainText {
+        border: 2px solid yellow;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 28px;
+        text-transform: capitalize;
+        color: #22D3EE;
+    }
+    .friendlyCompaniesSecondText {
+        border: 2px solid rgb(200, 0, 255);
+        display: flex;
+        margin: 10px auto 5px auto;
+        width: 450px;
+        height: 85px;
+        text-align: center;
+        font-size: 22px;
+        color: #A5F3FC;
+    }
+    .friendlyCompaniesImgContainer {
+        border: 2px solid rgb(142, 139, 232);
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .friendlyCompaniesImg {
+        background-image: url(Assets/buildingIcon.svg);
+        background-repeat: no-repeat;
+        width: 125px;
+        aspect-ratio: 1;
+    }
+    .effectiveDevelopment {
+        display: flex;
+        width: fit-content;
+        height: 150px;
+        border: 2px solid springgreen;
+    }
+    .effectiveDevelopmentTextAreas {
+        border: 2px solid rgba(255, 77, 0, 0.902);
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 150px;
+    }
+    .effectiveDevelopmentMainText {
+        border: 2px solid yellow;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 28px;
+        text-transform: capitalize;
+        color: #22D3EE;
+    }
+    .effectiveDevelopmentSecondText {
+        border: 2px solid rgb(200, 0, 255);
+        display: flex;
+        margin: 10px auto 5px auto;
+        width: 450px;
+        height: 85px;
+        text-align: center;
+        font-size: 22px;
+        color: #A5F3FC;
+    }
+    .effectiveDevelopmentImgContainer {
+        border: 2px solid rgb(142, 139, 232);
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .effectiveDevelopmentImg {
+        background-image: url(Assets/increaseIcon.svg);
+        background-repeat: no-repeat;
+        width: 125px;
+        aspect-ratio: 1;
+    }
+    /*SECOND SECTION-SECOND-LVL END*/
+
+    /*SECOND SECTION-THIRD-LVL START*/
+    .powerSidesThirdLvl {
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid orange;
+        width: 100%; 
+    }
+    .versatility {
+        display: flex;
+        margin-left: 125px;
+        width: fit-content;
+        height: 150px;
+        border: 2px solid springgreen;
+    }
+    .versatilityTextAreas {
+        border: 2px solid rgba(255, 77, 0, 0.902);
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 150px;
+    }
+    .versatilityMainText {
+        border: 2px solid yellow;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 28px;
+        text-transform: capitalize;
+        color: #22D3EE;
+    }
+    .versatilitySecondText {
+        border: 2px solid rgb(200, 0, 255);
+        display: flex;
+        margin: 10px auto 5px auto;
+        width: 450px;
+        height: 85px;
+        text-align: center;
+        font-size: 22px;
+        color: #A5F3FC;
+    }
+    .versatilityImgContainer {
+        border: 2px solid rgb(142, 139, 232);
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .versatilityImg {
+        background-image: url(Assets/extendIcon.svg);
+        background-repeat: no-repeat;
+        width: 125px;
+        aspect-ratio: 1;
+    }
+    .organizationOfWork {
+        display: flex;
+        margin-right: 125px;
+        width: fit-content;
+        height: 150px;
+        border: 2px solid springgreen;
+    }
+    .organizationOfWorkTextAreas {
+        border: 2px solid rgba(255, 77, 0, 0.902);
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 150px;
+    }
+    .organizationOfWorkMainText {
+        border: 2px solid yellow;
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 28px;
+        text-transform: capitalize;
+        color: #22D3EE;
+    }
+    .organizationOfWorkSecondText {
+        border: 2px solid rgb(200, 0, 255);
+        display: flex;
+        margin: 10px auto 5px auto;
+        width: 450px;
+        height: 85px;
+        text-align: center;
+        font-size: 22px;
+        color: #A5F3FC;
+    }
+    .organizationOfWorkImgContainer {
+        border: 2px solid rgb(142, 139, 232);
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .organizationOfWorkImg {
+        background-image: url(Assets/clockIcon.svg);
+        background-repeat: no-repeat;
+        width: 125px;
+        aspect-ratio: 1;
+    }
+    /*SECOND SECTION-THIRD-LVL END*/
     /*SECOND SECTION END*/
+
+    /*THIRD SECTION START*/
+    .thirdSection {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        border: 5px solid rgb(251, 155, 155);
+        width: 100%;
+        height: fit-content;
+    }
+    .thirdSectionContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        margin-bottom: auto;
+        border: 2px solid rgb(0, 170, 255);
+        width: 100%;
+        height: fit-content;
+    }
+    .thirdSectionTextAreas {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid red;
+        width: fit-content;
+    }
+    .thirdSectionMainText {
+        border: 2px solid springgreen;
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 45px;
+        text-transform: uppercase;
+        color: #06B6D4;
+    }
+    .thirdSectionSecondText {
+        border: 2px solid springgreen;
+        display: flex;
+        text-align: center;
+        margin: 25px auto;
+        width: fit-content;
+        font-size: 25px;
+        font-weight: 300;
+        color: #67E8F9;
+    }
+    /*THIRD SECTION END*/
   }
