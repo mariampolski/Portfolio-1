@@ -540,9 +540,7 @@ body {
     }
     .thirdSectionContainer {
         display: flex;
-        flex-direction: column;
-        margin-top: auto;
-        margin-bottom: auto;
+        justify-content: space-around;
         border: 2px solid rgb(0, 170, 255);
         width: 100%;
         height: fit-content;
@@ -567,7 +565,193 @@ body {
         text-transform: uppercase;
         color: #06B6D4;
     }
-    .thirdSectionSecondText {
+    .thirdSectionContainer {
+        border: 2px solid yellow;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+    .thirdSectionFirstPolygionContainer {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+    }
+    .thirdSectionFirstPolygon {
+        background-image: url(Assets/polygon.svg);
+        background-repeat: no-repeat;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -75px;
+        width: 130px;
+        height: 150px;
+        font-size: 40px;
+        color: white;
+    }
+    .thirdSectionFirstSquare {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        border: 1px solid #67E8F9;
+        border-image-slice: 1;
+        border-radius: 10px;
+        border: double 1px transparent;
+        background-image: linear-gradient(#101323, #101323),
+        linear-gradient(180deg, #67E8F9, #101828);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+    .thirdSectionSquareMainText {
+        border: 2px solid red;
+        display: flex;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 80px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 28px;
+        color: #22D3EE;
+    }
+    .thirdSectionSquareSecondText {
+        border: 2px solid red;
+        display: flex;
+        text-align: center;
+        width: 350px;
+        text-transform: capitalize;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 22px;
+        color: #A5F3FC;
+    }
+    .thirdSectionSquareMainText2 {
+        border: 2px solid red;
+        display: flex;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 80px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 28px;
+        color: #22D3EE;
+    }
+    .thirdSectionSquareSecondText2 {
+        border: 2px solid red;
+        display: flex;
+        text-align: center;
+        width: 350px;
+        text-transform: capitalize;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 22px;
+        color: #A5F3FC;
+    }
+    .thirdSectionSecondPolygionContainer {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+    }
+    .thirdSectionSecondPolygon {
+        background-image: url(Assets/polygon.svg);
+        background-repeat: no-repeat;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -75px;
+        width: 130px;
+        height: 150px;
+        font-size: 40px;
+        color: white;
+    }
+    .thirdSectionSecondSquare {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        border: 1px solid #67E8F9;
+        border-image-slice: 1;
+        border-radius: 10px;
+        border: double 1px transparent;
+        background-image: linear-gradient(#101323, #101323),
+        linear-gradient(180deg, #101828, #67E8F9);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+    .thirdSectionThirdPolygionContainer {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+    }
+    .thirdSectionThirdPolygon {
+        background-image: url(Assets/polygon.svg);
+        background-repeat: no-repeat;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -75px;
+        width: 130px;
+        height: 150px;
+        font-size: 40px;
+        color: white;
+    }
+    .thirdSectionThirdSquare {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        border: 1px solid #67E8F9;
+        border-image-slice: 1;
+        border-radius: 10px;
+        border: double 1px transparent;
+        background-image: linear-gradient(#101323, #101323),
+        linear-gradient(180deg, #67E8F9, #101828);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+    /*THIRD SECTION END*/
+
+     /*FOURTH SECTION START*/
+     .fourthSection {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        border: 5px solid rgb(246, 246, 246);
+        width: 100%;
+        height: fit-content;
+        background-color: #101828;
+        border-radius: 0 0 100px 100px;
+    }
+    .fourthSectionMainText {
+        border: 2px solid springgreen;
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 45px;
+        text-transform: uppercase;
+        color: #06B6D4;
+    }
+    .fourthSectionSecondText {
         border: 2px solid springgreen;
         display: flex;
         text-align: center;
@@ -577,5 +761,611 @@ body {
         font-weight: 300;
         color: #67E8F9;
     }
-    /*THIRD SECTION END*/
+    .fourthSectionContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto 100px auto;
+        border: 2px solid lightgreen;
+        width: fit-content;
+    }
+    .fourthSectionFirstLayer {
+        border: 2px solid orange;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 1600px;
+        height: fit-content;
+    }
+    .fourthSectionCenterBox {
+        display: flex;
+        align-items: center;
+        border: 2px solid greenyellow;
+        width: 400px;
+        height: fit-content;
+    }
+    .fourthSectionPointContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 2px solid lightblue;
+        margin: 25px 20px 25px 20px;
+        width: auto;
+        height: 100%;
+    }
+    .fourthSectionPointList {
+        border: 2px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: fit-content;
+    }
+    .fourthSectionPointListIcon {
+        height: 35px;
+        width: 35px;
+        background-image: url(Assets/Star.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+    }   
+    .fourthSectionPointListText {
+        display: flex;
+        align-items: center;
+        border: 2px solid red;
+        display: flex;
+        width: fit-content;
+        height: 30px;
+        font-size: 16px;
+        color: #A5F3FC;
+    }
+    .fourthSectionBigSquare {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(165, 243, 252, 5%);
+        border: 1px solid #67E8F9;
+        border-radius: 50px;
+        width: 400px;
+        height: 200px;
+    }
+    .fourthSectionSmallSquare {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        background-color: #083344;
+        border: 1px solid #67E8F9;
+        border-radius: 50px;
+        width: 200px;
+        height: 75px;
+        color: #A5F3FC;
+        font-size: 36px;
+    }
+    .fourthSectionSecondLayer {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1600px;
+    }
+    .fourthSectionLine {
+        margin-bottom: 50px;
+        height: 2px;
+        width: 1600px;
+        border-top: 1px;
+        background: rgb(22,66,99);
+        background: linear-gradient(90deg, rgba(22,66,99,0) 0%, rgba(22,78,99,1) 10%, rgba(22,78,99,1) 90%, rgba(22,66,99,0) 100%); 
+    }
+    .fourthSectionThirdLayer {
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+    }
+    .fourthSectionBigCircle {
+        display: flex;
+        margin-top: -105px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40px;
+        aspect-ratio: 1;
+        background-color: #155E75;
+        border-radius: 999px;
+    }
+    .fourthSectionBigCircle:before {
+        content: "";
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 20px;
+        aspect-ratio: 1;
+        background-color: #67E8F9;
+        border-radius: 999px;
+        z-index: 1;
+    }
+    .fourthSectionFourthLayer {
+        border: 2px solid orange;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 1600px;
+        height: fit-content;
+    }
+     /*FOURTH SECTION END*/
+
+     /*FIFTH SECTION START*/
+    .fifthSection {
+        border: 5 px solid rgb(83, 128, 0);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+    }
+    .fifthSectionContainer {
+        border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        width: 1700px;
+        height: fit-content;
+    }
+    .fifthSectionFirstLayer {
+        border: 2px solid orange;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 100px;
+    }
+    .fifthSectionSmallRectangle {
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 50px;
+        background-color: #101828;
+        border: 1px solid #06B6D4;
+        border-radius: 25px;
+        width: 600px;
+        height: fit-content;
+        z-index: 1;
+    }
+    .fifthSectionSmallRectangleBackground {
+        position: absolute;
+        background-color: #1D2939;
+        border: 1px solid #06B6D4;
+        margin-left: 90px;
+        margin-top: 70px;
+        border-radius: 25px;
+        width: 600px;
+        height: 360px;
+        z-index: -1;
+    }
+    .smallRectangleFirstLayer {
+        border: 2px solid yellow;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 80px;
+    }
+    .smallRectangleMainText {
+        border: 2px solid greenyellow;
+        display: flex;
+        height: 100%;
+        width: 330px;
+        font-size: 32px;
+        color: #A5F3FC;
+    }
+    .smallRectangleIcon {
+        background-image: url(Assets/returnArrow.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 62px;
+        height: 74px;
+    }
+    .smallRectangleSecondLayer {
+        border: 2px solid white;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+        width: 100%;
+        height: 96px;
+    }
+    .smallRectangleSecondLayerContainer {
+        border: 2px solid rgb(42, 93, 129);
+        text-align: end;
+        width: 390px;
+        height: 100%;
+        font-size: 24px;
+        color: #CFFAFE;
+    }
+    .smallRectangleThirdLayer {
+        border: 2px solid white;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 25px;
+        margin-bottom: 5px;
+        width: 100%;
+        height: fit-content;
+    }
+    .rectangleButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #67E8F9;
+        border: 2px solid rgb(42, 93, 129);
+        border-radius: 10px;
+        text-align: end;
+        width: 200px;
+        height: 75px;
+        font-size: 28px;
+        font-weight: 400;
+        color: #293056;
+        text-transform: capitalize;
+    }
+    .fifthSectionMediumRectangle {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 50px;
+        padding: 20px 30px;
+        background-color: #101828;
+        border: 1px solid #06B6D4;
+        border-radius: 25px;
+        width: 800px;
+        height: fit-content;
+        z-index: 1;
+    }
+    .fifthSectionMediumRectangleBackground {
+        position: absolute;
+        background-color: #1D2939;
+        border: 1px solid #06B6D4;
+        margin-left: 850px;
+        margin-top: 130px;
+        border-radius: 25px;
+        width: 800px;
+        height: 435px;
+        z-index: -1;
+    }
+    .mediumRectangleFirstLayer {
+        border: 2px solid yellow;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 120px;
+    }
+    .mediumRectangleMainText {
+        border: 2px solid greenyellow;
+        display: flex;
+        height: 100%;
+        width: 500px;
+        font-size: 32px;
+        color: #A5F3FC;
+    }
+    .mediumRectangleIcon {
+        background-image: url(Assets/checkCloud.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 75px;
+        height: 71px;
+    }
+    .mediumRectangleSecondLayer {
+        border: 2px solid white;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+        width: 100%;
+        height: 130px;
+    }
+    .mediumRectangleSecondLayerContainer {
+        border: 2px solid rgb(42, 93, 129);
+        text-align: end;
+        width: 500px;
+        height: 100%;
+        font-size: 24px;
+        color: #CFFAFE;
+    }
+    .mediumRectangleThirdLayer {
+        border: 2px solid white;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 25px;
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 5px;
+    }
+    .rectangleButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #67E8F9;
+        border: 2px solid rgb(42, 93, 129);
+        border-radius: 10px;
+        text-align: end;
+        width: 200px;
+        height: 75px;
+        font-size: 28px;
+        font-weight: 400;
+        color: #293056;
+        text-transform: capitalize;
+    }
+    .fifthSectionSecondLayer {
+        border: 2px solid orange;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 100px;
+        padding-bottom: 35px;
+    }
+    .fifthSectionBigRectangle {
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 50px;
+        background-color: #101828;
+        border: 1px solid #06B6D4;
+        border-radius: 25px;
+        width: 1300px;
+        height: fit-content;
+        z-index: 1;
+    }
+    .fifthSectionBigRectangleBackground {
+        position: absolute;
+        background-color: #1D2939;
+        border: 1px solid #06B6D4;
+        margin-left: 130px;
+        margin-top: 130px;
+        border-radius: 25px;
+        width: 1300px;
+        height: 410px;
+        z-index: -1;
+    }
+    .bigRectangleFirstLayer {
+        border: 2px solid yellow;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 80px;
+    }
+    .bigRectangleMainText {
+        border: 2px solid greenyellow;
+        display: flex;
+        height: 100%;
+        width: 550px;
+        font-size: 32px;
+        color: #A5F3FC;
+    }
+    .bigRectangleIcon {
+        background-image: url(Assets/questionMark.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 75px;
+        height: 75px;
+    }
+    .bigRectangleSecondLayer {
+        border: 2px solid white;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+        width: 100%;
+        height: 145px;
+    }
+    .bigRectangleSecondLayerContainer {
+        border: 2px solid rgb(42, 93, 129);
+        text-align: end;
+        width: 500px;
+        height: 100%;
+        font-size: 24px;
+        color: #CFFAFE;
+    }
+    .bigRectangleThirdLayer {
+        border: 2px solid white;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 25px;
+        margin-bottom: 5px;
+        width: 100%;
+        height: fit-content;
+    }
+     /*FIFTH SECTION END*/
+
+     /*SIXTH SECTION START*/
+    .sixthSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+        background-color: #101828;
+        border-radius: 0 0 100px 100px;
+        border: 2px solid green;
+    }
+    .sixthSectionMainText {
+        border: 2px solid springgreen;
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 45px;
+        text-transform: uppercase;
+        color: #06B6D4;
+    }
+    .sixthSectionSecondText {
+        border: 2px solid springgreen;
+        display: flex;
+        text-align: center;
+        margin: 25px auto;
+        width: fit-content;
+        font-size: 25px;
+        font-weight: 300;
+        color: #67E8F9;
+    }
+    .sixthSectionContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        width: 1175px;
+        height: fit-content;
+        border: 2px solid red;
+    }
+    .sixthSectionContainerFirstLayer {
+        border: 2px solid cyan;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+        z-index: 4;
+    }
+    .sixthSectionContainerBackground {
+        border: 2px solid cyan;
+        display: flex;
+        margin-bottom: -600px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 405px;
+        height: 605px;
+        border-radius: 25px;
+        z-index: 2;
+        background-color: #0E7490;
+        filter: blur(25px);
+    }
+    .sixthSectionContainerSecondLayer {
+        z-index: 1;
+        margin-top: -550px;
+        border: 2px solid cyan;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: fit-content;
+    }
+    .sixthSectionCart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 15px;
+        width: 400px;
+        height: 600px;
+        background-color: #1D2939;
+        border: 2px solid #0891B2;
+        border-radius: 25px;
+    }
+    .sixthSectionMainCartText {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        margin-top: 15px;
+        font-size: 36px;
+        color: #22D3EE;
+        text-transform: capitalize;
+    }
+    .sixthSectionSecondCartText {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        font-size: 57px;
+        color: #CFFAFE;
+        text-transform: capitalize;
+    }
+    .sixthSectionThirdCartText {
+        display: flex;
+        margin-top: 15px;
+        width: 100%;
+        height: fit-content;
+        font-size: 23px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+    }
+    .sixthSectionPointContainer {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+        margin-top: 15px;
+        border: 2px solid yellow;
+    }
+    .sixthSectionPointIcon {
+        background: no-repeat center/cover url("Assets/checkSquare.png");
+        width: 40px;
+        height: 40px;
+    }
+    .sixthSectionPointText {
+        border: 2px solid burlywood;
+        display: flex;
+        width: 230px;
+        height: fit-content;
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+     /*SIXTH SECTION END*/
+
+     /*SEVENTH SECTION START*/
+    .seventhSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        width: 100%;
+        height: fit-content;
+        
+    }
+    .seventhSectionContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        height: fit-content;
+        width: 100%;
+        border: 2px solid pink;
+        z-index: 2;
+    }
+    .seventhSectionFirstLine {
+        position: absolute;
+        margin-top: 100px;
+        height: 2px;
+        width: 1600px;
+        background: linear-gradient(90deg, rgba(22,66,99,0) 0%, rgba(22,78,99,1) 10%, rgba(22,78,99,1) 90%, rgba(22,66,99,0) 100%);
+        z-index: 1;
+    }
+    .seventhSectionSocialMedia {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1000px;
+        height: 100px;
+        background-color: #1D2939;
+        border: 2px solid #22D3EE;
+        border-radius: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .seventhSectionSocialMediaText {
+        display: flex;
+        align-items: center;
+        border: 2px solid red;
+        width: 300px;
+        height: 32px;
+        font-size: 24px;
+        color: #CFFAFE;
+    }
+    .seventhSectionSocialMediaIcons {
+        display: flex;
+        align-items: center;
+        border: 2px solid red;
+        width: 300px;
+        height: 60px;
+    }
+    
+     /*SEVENTH SECTION END*/
   }
