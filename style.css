@@ -1327,7 +1327,6 @@ body {
         margin-bottom: 100px;
         height: fit-content;
         width: 100%;
-        border: 2px solid pink;
         z-index: 2;
     }
     .seventhSectionFirstLine {
@@ -1362,10 +1361,155 @@ body {
     .seventhSectionSocialMediaIcons {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         border: 2px solid red;
         width: 300px;
         height: 60px;
     }
-    
+    .facebookIcon {
+        background-image: url(Assets/facebookIcon.png);
+        background-size: cover;
+        width: 60px;
+        aspect-ratio: 1;
+    }
+    .instagramIcon {
+        background-image: url(Assets/InstagramIcon.png);
+        background-size: cover;
+        width: 60px;
+        aspect-ratio: 1;
+    }
+    .tweeterIcon {
+        background-image: url(Assets/tweeterIcon.png);
+        background-size: cover;
+        width: 60px;
+        aspect-ratio: 1;
+    }
+    .linkedinIcon {
+        background-image: url(Assets/linkedinIcon.png);
+        background-size: cover;
+        width: 60px;
+        aspect-ratio: 1;
+    }
+    .newsletterText {
+        display: flex;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 255px;
+        height: fit-content;
+        font-size: 28px;
+        color: #22D3EE;
+    }
+    .newsletterForm {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 700px;
+        height: 75px;
+        background-color: #1D2939;
+        border-radius: 10px;
+        z-index: 2;
+    }
+    .newsletterFormBackground {
+        display: flex;
+        align-items: center;
+        margin-top: -75px;
+        width: 704px;
+        height: 76px;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(6,182,212,1) 100%);
+        border-radius: 10px;
+        z-index: 1;
+    }
+    .mailIcon {
+        display: flex;
+        width: 50px;
+        height: 42px;
+        background-image: url(Assets/mailIcon.png);
+    }
+    .enterEmailText {
+        display: flex;
+        color: #667085;
+        font-size: 22px;
+        width: 160px;
+        height: fit-content;
+        margin-left: 20px;
+    }
+    .subscribeButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        width: 150px;
+        height: 50px;
+        border: 1px solid #22D3EE;
+        border-radius: 10px;
+        background: rgb(21,94,117);
+        background: linear-gradient(90deg, rgba(21,94,117,1) 0%, rgba(255,255,255,0) 100%);
+        color: white;
+        font-size: 22px;
+        text-transform: capitalize;
+    }
+    .footerListContainer {
+        border: 2px solid red;
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-between;
+        height: fit-content;
+        width: 800px;
+    }
+    .footerList {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid yellow;
+        width: fit-content;
+        height: fit-content;
+    }
+    .textLine {
+        border: 2px solid red;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        height: fit-content;
+        text-transform: uppercase;
+        font-size: 24px;
+        color: #22D3EE;
+    }
+    .rightArrowIcon {
+        display: flex;
+        width: 12px;
+        height: 25px;
+        background-image: url(Assets/rightArrowIcon.png);
+        background-size: cover;
+    }
+    .secondLine {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10px;
+        width: 100%;
+        height: fit-content;
+        font-size: 22px;
+        text-transform: capitalize;
+        color: #CFFAFE;
+        border: 2px solid white;
+    }
+    .secondText {
+        display: flex;
+        margin-left: 15px;
+        font-size: 22px;
+        text-transform: capitalize;
+        color: #CFFAFE;
+    }
+    .seventhSectionSecondLine {
+        display: flex;
+        margin-top: -50px;
+        margin-bottom: 100px;
+        height: 2px;
+        width: 100%;
+        background: linear-gradient(90deg, rgba(22,66,99,0) 0%, rgba(22,78,99,1) 10%, rgba(22,78,99,1) 90%, rgba(22,66,99,0) 100%);
+        z-index: 1;
+    }
      /*SEVENTH SECTION END*/
   }
